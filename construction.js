@@ -89,3 +89,25 @@ tabBtns.forEach(btn => {
   m.style.display = 'none';
   m.style.opacity = '0';
 });
+
+// Burger menu logic
+const burgerBtn = document.getElementById('burgerBtn');
+const navMenu = document.getElementById('navMenu');
+if (burgerBtn && navMenu) {
+  burgerBtn.addEventListener('click', function() {
+    const expanded = burgerBtn.getAttribute('aria-expanded') === 'true';
+    burgerBtn.setAttribute('aria-expanded', !expanded);
+    if (navMenu.hasAttribute('hidden')) {
+      navMenu.removeAttribute('hidden');
+    } else {
+      navMenu.setAttribute('hidden', '');
+    }
+  });
+  // Close nav on menu item click (mobile UX)
+  navMenu.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      navMenu.setAttribute('hidden', '');
+      burgerBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+}

@@ -11,6 +11,25 @@
   <div class="background"></div>
   <div class="overlay"></div>
 
+  <header>
+    <div class="header-logo-container">
+      <a href="#" class="header-logo-link" aria-label="Kindness Counts UK Home">
+        <img src="logo.webp" alt="Kindness Counts UK Logo" class="header-logo" />
+      </a>
+    </div>
+    <nav class="main-nav" aria-label="Main Navigation">
+      <button class="burger" id="burgerBtn" aria-label="Open Navigation Menu" aria-controls="navMenu" aria-expanded="false">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
+      <ul id="navMenu" class="nav-menu" hidden>
+        <li><button id="privacyBtn" aria-label="Show Privacy Notice">Privacy Notice</button></li>
+        <li><button id="safeguardingBtn" aria-label="Show Safeguarding Policy">Safeguarding Policy</button></li>
+        <li><button id="contactBtn" aria-label="Contact Us">Find Us</button></li>
+      </ul>
+    </nav>
+  </header>
   <div class="ticker-container" aria-label="Upcoming Events Ticker">
     <div class="ticker" id="eventsTicker"></div>
   </div>
@@ -23,11 +42,8 @@
     </div>
   </main>
   <footer role="contentinfo">
-    <div class="footer-content">
-      <span>Email Kindness Charity:  <a href="mailto:michellekindnesscountsuk@gmail.com">michellekindnesscountsuk@gmail.com</a>  |  <a href="mailto:pollykindnesscountsuk@gmail.com">pollykindnesscountsuk@gmail.com</a> </span>
-      <span class="privacy"><button id="privacyBtn" aria-label="Show Privacy Notice">Privacy Notice</button></span>
-      <span class="safeguarding-modal-btn"><button id="safeguardingBtn" aria-label="Show Safeguarding Policy">Safeguarding Policy</button></span>
-      <span class="contact-modal-btn"><button id="contactBtn" aria-label="Contact Us">Find Us</button></span>
+    <div class="footer-content"><hr>
+      Email Kindness Charity: <hr> <a href="mailto:pollykindnesscountsuk@gmail.com">pollykindnesscountsuk@gmail.com</a> | <a href="mailto:michellekindnesscountsuk@gmail.com">michellekindnesscountsuk@gmail.com</a>
     </div>
   </footer>
 
@@ -221,8 +237,8 @@
         <button class="tab-btn" data-tab="hub">The Hub Address</button>
       </div>
       <div class="tab-content active" id="registered">
-        <div class="address-map">
-          <div class="address-block">
+        <div class="address-map modal-address-map">
+          <div class="address-block modal-address-block">
             <h3>Kindness Counts UK</h3>
             <address>
               30 Balmoral Place<br>
@@ -231,12 +247,12 @@
               FY5 5HU
             </address>
           </div>
-          <iframe class="map" title="Registered Address Map" src="https://www.google.com/maps?q=30+Balmoral+Place,+Thornton-Cleveleys,+Lancashire,+FY5+5HU&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="map modal-map" title="Registered Address Map" src="https://www.google.com/maps?q=30+Balmoral+Place,+Thornton-Cleveleys,+Lancashire,+FY5+5HU&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
       <div class="tab-content" id="hub">
-        <div class="address-map">
-          <div class="address-block">
+        <div class="address-map modal-address-map">
+          <div class="address-block modal-address-block">
             <h3>Community Hub</h3>
             <address>
               136 – 138 Victoria Road<br>
@@ -245,7 +261,7 @@
               FY5 3LG
             </address>
           </div>
-          <iframe class="map" title="Hub Address Map" src="https://www.google.com/maps?q=136+Victoria+Road+West,+Cleveleys,+Lancashire,+FY5+3LG&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="map modal-map" title="Hub Address Map" src="https://www.google.com/maps?q=136+Victoria+Road+West,+Cleveleys,+Lancashire,+FY5+3LG&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
