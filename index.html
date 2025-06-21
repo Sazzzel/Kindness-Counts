@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We're Coming Soon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <div class="ticker-container" aria-label="Upcoming Events Ticker">
+    <div class="ticker" id="eventsTicker"></div>
+  </div>
+  <main>
+    <img src="logo.webp" alt="Kindness Charity Logo" class="logo" />
+    <h1>Coming Soon</h1>
+    <p>Our website is under development.<br>We'll be back shortly with something amazing.</p>
+    <div class="accessibility">
+      <p>We are committed to accessibility. If you need assistance, please contact us.</p>
+    </div>
+  </main>
+  <footer role="contentinfo">
+    <div class="footer-content">
+      <span>Email Kindness Charity: <a href="mailto:pollykindnesscountsuk@gmail.com">pollykindnesscountsuk@gmail.com</a> | <a href="mailto:michellekindnesscountsuk@gmail.com">michellekindnesscountsuk@gmail.com</a></span>
+      <span class="privacy"><button id="privacyBtn" aria-label="Show Privacy Notice">Privacy Notice</button></span>
+      <span class="safeguarding-modal-btn"><button id="safeguardingBtn" aria-label="Show Safeguarding Policy">Safeguarding Policy</button></span>
+      <span class="contact-modal-btn"><button id="contactBtn" aria-label="Contact Us">Find Us</button></span>
+    </div>
+  </footer>
+
+  <!-- Privacy Notice Modal -->
+  <div id="privacyModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="privacyTitle" tabindex="-1">
+    <div class="modal-content">
+      <button class="close" aria-label="Close Privacy Notice" id="closePrivacy">&times;</button>
+      <h2 id="privacyTitle">Privacy Policy</h2>
+      <div class="privacy-body">
+        <h3>Introduction</h3>
+        <p>This privacy policy explains in detail the types of personal data Kindness Counts UK collect about you when you interact with the charity. It also explains how they will store and handle that data and keep it safe. Please read this privacy policy carefully. By accessing or browsing this website, you confirm that you have read, understood and agree to this privacy policy in its entirety.</p>
+        <h3>Kindness Counts UK</h3>
+        <p>The trading address is Community Hub 138 Victoria Road, West Cleveleys, Lancashire, FY5 3LG and the registered address is Kindness Counts UK, 30 Balmoral Place, Thornton-Cleveleys, Lancashire, FY5 5HU</p>
+        <h3>Explaining the legal bases Kindness Counts UK relies on</h3>
+        <p>The law on data protection, based on the General Data Protection Regulation and formerly the Data Protection Act, sets out a number of different reasons for which a company or another organisation type may collect and process your personal data, including:</p>
+        <h4>Consent:</h4>
+        <ol>
+          <li>In specific situations, Kindness Counts UK can collect and process your data with your consent. This includes when you have ticked a box to receive regular communications from the charity in a paper or electronic document or on the website</li>
+          <li>Producing or sharing media such as photos and social media posts.</li>
+          <li>Without the consent of a parent or carer no photos or filming of anyone below the age of 18 are permitted at our community hub or any of our events or events we are participating in.</li>
+          <li>Written consent must before any media is produced or shared by a staff member</li>
+          <li>Sharing media by any staff member must be approved by Head Office first.</li>
+          <li>When collecting your personal data, Kindness Counts UK will always make clear to you which data is necessary in connection with a particular service.</li>
+        </ol>
+        <h4>Contractual obligations:</h4>
+        <ol>
+          <li>In certain circumstances, Kindness Counts UK will need your personal data to comply with his contractual obligations.</li>
+          <li>If you have hired The Hub for example, then Kindness Counts UK will need your contact details for example.</li>
+          <li>When does Kindness Counts UK collect personal data</li>
+          <li>When you visit the website</li>
+          <li>When you engage with Kindness Counts UK on social media</li>
+          <li>When you contact Kindness Counts UK by any means to make enquiries</li>
+          <li>When you comment on or review Kindness Counts UK</li>
+        </ol>
+        <h3>What sort of personal data does Kindness Counts UK collect</h3>
+        <ol>
+          <li>Personal information including name, contact details and home address</li>
+          <li>Details of your interactions with Kindness Counts UK such as with the website, email and social media</li>
+          <li>Copies of documents you provide Kindness Counts UK or signed contracts</li>
+          <li>Payment information</li>
+          <li>Your comments and reviews</li>
+          <li>Your social media username, if you interact with</li>
+          <li>Kindness Counts UK through those channels, to help the charity respond to your comments, questions or feedback.</li>
+          <li>Media such as photos taken at our events or third-party events.</li>
+        </ol>
+        <h3>How Kindness Counts UK will use your personal data and why</h3>
+        <p>Of course, you are free to opt out of hearing from Kindness Counts UK by any of these channels at any time. Reasons for using your personal data and why include:</p>
+        <ol>
+          <li>To send you relevant, personalised communications by post or email in relation to updates, offers and services.</li>
+          <li>To perform any contract, we’ve agreed with you. If we don’t collect your personal data during this process, we won’t be able to provide the required services and comply with Kindness Counts UK’s legal obligations.</li>
+          <li>To respond to your queries or complaints</li>
+          <li>Handling the information, you sent enables Kindness Counts UK to respond. We may also keep a record of these to inform any future communication with us and to demonstrate how we communicated with you throughout. We do this on the basis of our contractual obligations to you, our legal obligations and our legitimate interests in providing you with the best service and understanding how we can improve our service based on your experience.</li>
+          <li>To protect Kindness Counts UK from fraud and other illegal activities. We’ll do all of this as part of our legitimate interest.</li>
+          <li>Service messages will not include any promotional content and do not require prior consent when sent by email or text message. If we do not use your personal data for these purposes, we would be unable to comply with Kindness Counts UK’s legal obligations.</li>
+          <li>To send you survey and feedback requests to help improve Kindness Counts UK services.</li>
+          <li>Producing and sharing media such as on social media and printed material.</li>
+        </ol>
+        <h3>How Kindness Counts UK protects Your Personal Data</h3>
+        <p>We know how much data security matters to all. With this in mind we will treat your data with the utmost care and take all appropriate steps to protect it. Kindness Counts UK regularly monitor our systems for possible vulnerabilities and constantly review our security</p>
+        <h3>How long will Kindness Counts UK keep your personal data</h3>
+        <p>Whenever Kindness Counts UK collects or processes your personal data, they only keep it for as long as is necessary for the purpose for which it was collected. At the end of that retention period, your data will either be deleted completely or anonymised, for example by aggregation with other data so that it can be used in a non-identifiable way for statistical analysis and business planning. Her Majesty’s Revenue and Customs (HMRC) requires Kindness Counts UK to keep records of contracts, payments and invoices for 7 years. We will therefore normally hold information of any contracts for this long.</p>
+        <h3>Who does Kindness Counts UK share your personal data with</h3>
+        <p>Anyone required to do so by law such as the police.</p>
+        <p>Should that be necessary Kindness Counts UK provides only the information they need to perform their specific services. Kindness Counts UK may only use your data for the exact purposes he specifies in the contract with them. Kindness Counts UK closely with them to ensure that your privacy is respected and protected at all times</p>
+        <h3>Where your personal data may be processed</h3>
+        <p>Your data may be processed anywhere in the world including while using website features such as Google Fonts. The website is hosted in the United Kingdom</p>
+        <h3>You have the right to request</h3>
+        <ol>
+          <li>Access to the personal data Kindness Counts UK holds about you, free of charge in most cases.</li>
+          <li>The correction of your personal data when incorrect, out of date or incomplete.</li>
+          <li>The right to deletion, for example when you withdraw consent, or object and we have no legitimate overriding interest, or once the purpose for which Kindness Counts UK hold the data has come to an end (such as the end of a warranty).</li>
+          <li>That Kindness Counts UK stops using your personal data for direct marketing (either through specific channels, or all channels).</li>
+          <li>That Kindness Counts UK stops any consent-based processing of your personal data after you withdraw that consent</li>
+          <li>You have the right to request a copy of any information about you that Kindness Counts UK holds at any time, and also to have that information corrected if it is inaccurate.</li>
+          <li>To ask for your information, please contact Kindness Counts UK. If we decides not to action your request we will explain to you the reasons for his refusal</li>
+        </ol>
+        <h3>Your right to withdraw consent</h3>
+        <ol>
+          <li>Whenever you have given Kindness Counts UK your consent to use your personal data, you have the right to change your mind at any time and withdraw that consent.</li>
+          <li>Where Kindness Counts UK relies on our legitimate interest.</li>
+          <li>In cases where Kindness Counts UK is processing your personal data on the basis of our legitimate interest, you can ask Kindness Counts UK to stop for reasons connected to your individual situation. We must then do so unless we believe we have a legitimate overriding reason to continue processing your personal data.</li>
+          <li>A parent or carer of a person aged under 18 may at anytime request that consent is withdrawn.</li>
+          <li>Anyone aged 18 and over may at anytime request that consent is withdrawn.</li>
+          <li>When consent has been withdrawn we will no longer share or produce any new media which includes the person who’s consent was previously given, except when promoting any printed material.</li>
+          <li>We cannot be held accountable for any online media which has been shared by third parties.</li>
+        </ol>
+        <h3>Direct marketing</h3>
+        <p>You have the right to stop the use of your personal data for direct marketing activity through all channels, or selected channels. Kindness Counts UK must always comply with your request.</p>
+        <h3>Contacting The Regulator</h3>
+        <p>If you feel that your data has not been handled correctly, or you are unhappy with Kindness Counts UK’s response to any requests you have made to Kindness Counts UK regarding the use of your personal data, you have the right to lodge a complaint with the Information Commissioner’s Office (ICO). You can contact them by calling 0303 123 1113 or go online to <a href="https://www.ico.org.uk/concerns" target="_blank" rel="noopener">www.ico.org.uk/concerns</a></p>
+        <h3>If you live outside the UK</h3>
+        <p>By using the website and services or providing your personal data to Kindness Counts UK, you expressly consent to the processing of your personal data by us or on behalf of. Of course, you still have the right to ask Kindness Counts UK not to process your data in certain ways, and if you do so, we will respect your wishes. Sometimes Kindness Counts UK will need to transfer your personal data between countries to enable us to supply the goods or services you’ve requested. In the ordinary course of business, we may transfer your personal data from your country of residence to ours and to third parties located in other countries. By dealing with Kindness Counts UK you are giving your consent to this overseas use, transfer and disclosure of your personal data outside your country of residence for Kindness Counts UK’s ordinary charity purposes.</p>
+        <p>This may occur because our information technology storage facilities and servers are located outside your country of residence, and could include storage of your personal data on servers in the United States Kindness Counts UK will ensure that reasonable steps are taken to prevent third parties outside your country of residence using your personal data in any way that’s not set out in this Privacy Notice. We will also make sure we adequately protect the confidentiality and privacy of your personal data</p>
+        <h3>Cookie Policy</h3>
+        <p>This website uses cookies to collect information about you. Cookies are small data files which are placed on your computer by this website, and which collect certain personal data about you. This enables Kindness Counts UK to tailor his service offering (including the website) to provide you with products and services which are more relevant to your individual tastes. However, you may change your website browser settings to reject cookies, although please note that if you do this it may impair the functionality of the Services. As each website browser is different, please visit your browser’s Help” menu to learn how to change your cookie preference.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Safeguarding Policy Modal -->
+  <div id="safeguardingModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="safeguardingTitle" tabindex="-1">
+    <div class="modal-content">
+      <button class="close" aria-label="Close Safeguarding Policy" id="closeSafeguarding">&times;</button>
+      <h2 id="safeguardingTitle">Safeguarding Policy</h2>
+      <div class="safeguarding-body">
+        <h3>Introduction</h3>
+        <p>Kindness Counts UK fully committed to safeguarding the welfare of all children and young people by taking all reasonable steps to protect them from neglect, physical, sexual or emotional harm.</p>
+        <p>Kindness Counts UK aims to keep safe all children and young people who uses its services as well as the paid staff and volunteers who work for the charity.</p>
+        <p>Kindness Counts UK aims to provide safe, positive and empowering environments for all young people who engage in projects, programmes and events organised directly by it, or in partnership with other or organisations.</p>
+        <p>Kindness Counts UK works with young people aims to be fun and informative. This can only be achieved in an atmosphere of trust and respect.</p>
+        <p>Kindness Counts UK recognises that there are a variety of approaches required to ensure an effective prevention of harm strategy. These include creating the right environment, developing practice standards, empowering young people, paid staff and volunteers, sharing information and developing a monitoring role.</p>
+        <p>Kindness Counts UK recognises that there are a variety of activities.</p>
+        <h3>Dissemination</h3>
+        <p>Kindness Counts UK recognises that there are a variety of approaches required to ensure an effective prevention of harm strategy. These include creating the right environment, developing practice standards, empowering young people, paid staff and volunteers, sharing information and developing a monitoring role.</p>
+        <h3>Review Date</h3>
+        <p>This Policy and Procedure will be reviewed very 2 years by the school Principal, to ensure that the operation of this procedure is satisfactory.</p>
+        <p>This document was created in August 2024.</p>
+        <p>Kindness Counts UK will review any incidents during the year and take the appropriate action to resolve them, adapting policies and procedures immediately if so required.</p>
+        <h3>Designated Safeguarding Officer</h3>
+        <ul>
+          <li>Be specifically trained to carry out this role. Be familiar with and have an understanding of all legislation and guidance relating to safeguarding and child protection.</li>
+          <li>Receive information from paid staff, volunteers, children and young people, parents and carers about child protection concerns.</li>
+          <li>Assess this information promptly and take appropriate action</li>
+          <li>Maintain secure, confidential records of any child protection or other safeguarding concerns raised, action taken and follow-up required</li>
+          <li>Provide support during and after incidents involving child protection.</li>
+          <li>Know how to contact and establish links with the Local Safeguarding Children Boards and the relevant departments within Local Authorities and police and be familiar with local referral procedures Assess the safeguarding and child protection learning and development needs of all staff and volunteers and coordinate the training</li>
+          <li>Promote safeguarding across the organisation and keep all staff and volunteers informed on good practice and new legislation and guidance</li>
+          <li>Monitor the overall trend of safeguarding concerns, keep records of their disposal and feed back to the organisation on the quality of their safeguarding work</li>
+        </ul>
+        <p>It is not the responsibility or staff to decide whether a young person has been abused or is at significant risk.</p>
+        <p>Investigation of child abuse is a specialised professional task which should only be undertaken by the designated agencies, i.e. the Local Authority Children’s Services, police, Local Safeguarding Children’s Board or the NSPCC. However, they have a responsibility to act on any concerns and report them in accordance with the reporting procedure.</p>
+        <p>The one thing a staff member must not do is NOTHING!</p>
+        <ul>
+          <li>Act immediately – do not delay Consider whether the child or young person is in immediate danger. If they are, contact the police, Local Authority, Local Safeguarding Children’s Board or parents or carers (if appropriate).</li>
+          <li>If allegations have been made about a member of staff or a volunteer, report the matter to someone higher within the organisation. The organisation’s disciplinary procedure should be followed.</li>
+          <li>If the child is not in immediate danger and you are with the child, listen to what they want to share with you about the incident. Do not ask leading or interrogating questions, just questions for clarification only.</li>
+          <li>Contact your local services team and discuss any future action with them, e.g. if an allegation against a member of staff or a volunteer contact the Local Safeguarding Children’s Board Local Authority Designated Officer, if regarding a child contact Children’s Services and if regarding a vulnerable adult contact Adult Services, etc.</li>
+          <li>Agree with the Local Safeguarding Children’s Board team ongoing support for the child. When considering and taking any action, the child or young person’s welfare must be paramount.</li>
+          <li>Record the name, age, date of birth, home address and telephone number of the child</li>
+          <li>Whether or not the person making the report is expressing their own concerns or those of someone else.</li>
+          <li>The nature of the allegation. Include dates, times, any special factors and other relevant information</li>
+          <li>Make a clear distinction between what is fact, opinion or hearsay</li>
+          <li>A description of any visible bruising or other injuries. Also, any indirect signs, such as unusual or distinctive behaviour</li>
+        </ul>
+        <h3>Consent To Parent and Carers</h3>
+        <p>Consent must be obtained from a child’s parent or carer for any Kindness Counts UK activity involving a person under the age of 18 years.</p>
+        <p>Kindness Counts UK consent form will be used for this purpose.</p>
+        <p>Kindness Counts UK may want to take photographs or record the activities undertaken by the children.</p>
+        <p>Kindness Counts UK commits to ensure that all publications and media represent participants appropriately and with due respect.</p>
+        <p>Individuals and organisations commissioned by us or working in partnership with us cannot use film and photography without the consent of the participating groups.</p>
+        <p>Where possible and appropriate the Kindness Counts UK gets explicit consent when people register for an event directly.</p>
+        <p>Consent must be obtained from a child’s parent or carer for any Kindness Counts UK activity involving a person under the age of 18 years.</p>
+        <p>Kindness Counts UK consent form will be used for this purpose</p>
+        <p>During activities, copies of consent forms will be available to relevant staff present, in case of an emergency and the need to contact a parent or carers</p>
+        <p>Forms will be kept in a place which is only accessible to staff and the location f the forms must be known to all staff participating in the event</p>
+        <p>Personal information about the individual will not accompany the image</p>
+        <p>Kindness Counts UK receives a blanket permission to record our events through film and photography. However, should a parent/carer/child not give consent then no filming or photos of them shall take place.</p>
+        <p>This permission restricts use for Kindness Counts UK own promotional use, i.e website, social media.</p>
+        <p>Kindness Counts UK states at events that they will be taking photographs and video shots of activities and performances for use within Kindness Counts UK s photographic library, printed company publications, publicity and on its website, to support and promote the work of the charity.</p>
+        <h3>Confidentiality</h3>
+        <p>While Kindness Counts UK staff will ensure that young people’s rights to privacy and confidence is respected, there may be times when this confidence needs to be breached</p>
+        <p>If a child discloses information about him/herself or another child which raises safeguarding concerns about the safety of that young person or others, then these concerns will be reported to the Designated Safeguarding Officer in line with Kindness Counts UK reporting concerns procedure which is included in this policy.</p>
+        <p>Kindness Counts UK will ensure that the young person is involved, consulted and kept informed about what action, if any, is to be taken and during each step of the reporting procedure.</p>
+        <p>Any personal information gathered about a child regarding a child protection concern will be stored in a secured and confidential place. Only appropriate staff will have access to this information (e.g. paid staff member or volunteer involved, Designated Safeguarding Officer)</p>
+        <p>It may be necessary to pass this information on to the relevant Local Authority and police.</p>
+        <p>Kindness Counts UK staff will ensure that any information gained or given will be treated with the strictest of confidence</p>
+        <p>Children will be consulted and involved in the decision-making.</p>
+        <h3>Definition of Child Abuse</h3>
+        <ul>
+          <li><strong>Neglect:</strong> the persistent or severe neglect and failure to meet the child’s or young person’s basic physical and or psychological needs, i.e food, warmth, shelter, clothing, care and protection</li>
+          <li><strong>Physical:</strong> any form of non-accidental injury or failure to protect against injury to a child or young person. This may involve hitting, shaking, poisoning, throwing, suffocating, burning and scalding. Physical harm may also be caused when a parent or carer puts on the symptoms of, or deliberately causes, ill health to a child or young person under their care</li>
+          <li><strong>Emotional:</strong> severe or persistent rejection or emotional ill treatment of the child or young person which would negatively affect the emotional or behavioural development of the child or young person.</li>
+          <li><strong>Sexual:</strong> the actual, or likely, sexual exploitation of the child or young person by any person, whether or not that child or young person is aware of what is happening. This would include physical contact and non-physical contact (looking at pornographic materials, watching sexual activities, or encouraging children/young people to behave in sexually inappropriate ways). It is also recognised that there are other sources of stress for children and their families, for example social exclusion, domestic violence, mental illness or drug and alcohol misuse</li>
+        </ul>
+        <h3>Disclosure and Barring Service</h3>
+        <p>Children’s well-being is paramount and therefore staff (where applicable) will be Enhanced DBS checked.</p>
+        <h3>Other Info</h3>
+        <p>A parent or another responsible adult must be present during Kindness Counts UK’s activities.</p>
+        <p>Kindness Counts UK does not take any responsibility for anyone entering or leaving the Hub or any other venue in relation to its activities, except when due to the negligence of Kindness Counts UK’s staff including volunteers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us Modal -->
+  <div id="contactModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="contactTitle" tabindex="-1">
+    <div class="modal-content contact-modal">
+      <button class="close" aria-label="Close Contact Modal" id="closeContact">&times;</button>
+      <h2 id="contactTitle">Contact Us</h2>
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="registered">Registered Address</button>
+        <button class="tab-btn" data-tab="hub">The Hub Address</button>
+      </div>
+      <div class="tab-content active" id="registered">
+        <div class="address-map">
+          <div class="address-block">
+            <h3>Kindness Counts UK</h3>
+            <address>
+              30 Balmoral Place<br>
+              Thornton -Cleveleys<br>
+              Lancashire<br>
+              FY5 5HU
+            </address>
+          </div>
+          <iframe class="map" title="Registered Address Map" src="https://www.google.com/maps?q=30+Balmoral+Place,+Thornton-Cleveleys,+Lancashire,+FY5+5HU&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="tab-content" id="hub">
+        <div class="address-map">
+          <div class="address-block">
+            <h3>Community Hub</h3>
+            <address>
+              136 – 138 Victoria Road<br>
+              West Cleveleys<br>
+              Lancashire<br>
+              FY5 3LG
+            </address>
+          </div>
+          <iframe class="map" title="Hub Address Map" src="https://www.google.com/maps?q=136+Victoria+Road+West,+Cleveleys,+Lancashire,+FY5+3LG&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Event Details Modal -->
+  <div id="eventModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="eventTitle" tabindex="-1">
+    <div class="modal-content">
+      <button class="close" aria-label="Close Event Details" id="closeEvent">&times;</button>
+      <h2 id="eventTitle"></h2>
+      <div id="eventModalBody"></div>
+    </div>
+  </div>
+
+  <script src="construction.js"></script>
+</body>
+</html>
