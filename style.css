@@ -167,6 +167,11 @@ header {
   display: block;
 }
 
+.kcuklink {
+  color: white;
+  hover: yellow;
+}
+
 @media (max-width: 600px) {
   .header-logo {
     width: 44px;
