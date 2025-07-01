@@ -173,6 +173,7 @@ header {
 
 .kcuklink:hover {
   color: yellow;
+  background-color:yellow;
 }
 
 @media (max-width: 600px) {
