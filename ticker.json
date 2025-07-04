@@ -1,9 +1,17 @@
 [
   {
-    "title": "Karaoke Night",
-    "date": "2025-06-27",
-    "time": "7:30 PM - Late",
-    "location": "Bay Horse, 1 Station Rd, Blackpool, Thornton-Cleveleys FY5 5HY",
-    "description": "Join us for a fun night at the Bay Horse."
+    "title": "A Puppies Tail - Book Launch",
+    "date": "2025-07-05",
+    "time": "1 PM - 4pm",
+    "location": "Kindness Counts Hub, 136 - 138 Victoria Road West, FY5 3LG ",
+    "description": "Join us for the launch of A puupies Tail our new Book. "
+  }
+
+  {
+    "title": "Tram Sunday",
+    "date": "2025-07-20",
+    "time": "All Day",
+    "location": "Fleetwood to Blackpool trams.",
+    "description": "Join in the fun on Tram Sunday. Ride for free on Old and new Trams. "
   }
 ]
